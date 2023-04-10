@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Presentacion js</title>
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css" />
+    <link rel="stylesheet" href="path/to/pretty-code.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section data-background-color= " #CDAA93" data-transition="slide">
+           <h1>
+            <P>EXISTEN DIVERSOS 
+                TIPOS DE ARCHIVOS
+                COMO LO SON:
+            </P>
+           </h1>
+        </section>
+        <section data-background-color= " #CDAA93"  data-transition="slide">
+            <h2>ARCHIVOS PLANOS</h2>
+        </section>
+        <section data-background-color= " #CDAA93" data-transition="slide-in fade-out">
+           <h2>
+              <P>ARCHIVOS PLANOS</P>
+              <p>ARCHIVOS XML</p>  
+           </h2>         
+            
+        </section>
+        <section data-background-color= " #CDAA93" data-transition="fade-in slide-out">
+            <h2>
+              <P>ARCHIVOS PLANOS</P>
+              <p>ARCHIVOS XML</p>           
+              <p>ARCHIVOS JSON</p>
+            </h2>
+        </section>
+        <section data-background-color= " #CDAA93" data-transition="slide">
+            <h2>
+              <P>ARCHIVOS PLANOS</P>
+              <p>ARCHIVOS XML</p>   
+              <p>ARCHIVOS JSON</p>
+              <P>ARCHIVOS PARQUET</P>           
+            
+            </h2>
+        </section>
+          <!-- Archivos planos -->
+          
+
+          <section data-background-color="#F3D480" data-auto-animate>
+          <h1>Archivos planos</h1>
+
+          </section>
+
+        <section  data-background-color="#F3D480" data-auto-animate style="color: red;">
+          <h1 style="margin-top: 10px; color: rgb(105, 14, 241);">Archivos Planos</h1>
+          <div>
+            <p>
+              Un archivo plano, también conocido como archivo de texto plano, es
+              un tipo de archivo informático que almacena datos de texto sin
+              ningún formato o estructura específicos.
+            </p>
+          </div>
+          <pre>
+                <code class="prettyprint">
+               <p style="color: blue;">Los archivos planos suelen contener datos en forma de texto sin 
+                formato, como números, letras y símbolos, 
+                separados por algún tipo de delimitador, 
+                como comas, tabulaciones o espacios.</p>
+        </code>
+        </pre>
+        </section>
+        
+
+        <section data-background-color="#F3D480" data-auto-animate>
+            <h1>imagen </h1>
+
+        </section>
+                <section data-background-color="#F3D480" data-auto-animate>
+            <h1>imagen </h1>
+          <h1>texto plano</h1>
+          <img src="./img/Plain_text.png" alt="" width="700px" />
+        </section>
+
+
+        <!--Archivos XML<  -->
+        <section data-background-color="grey" data-auto-animate>
+          <h1>Archivos XML</h1>
+        </section>
+
+        <section
+          data-background-color="grey"
+          data-auto-animate
+          style="color: blueviolet"
+        >
+          <h1>Archivos XML</h1>
+          <p>
+            Un archivo XML (Extensible Markup Language) es un tipo de archivo
+            informático que almacena información estructurada en formato de
+            texto plano. El XML utiliza etiquetas para definir diferentes tipos
+            de datos y sus relaciones, lo que permite crear documentos con una
+            estructura jerárquica y organizada.
+          </p>
+        </section>
+        <section data-background-color="grey">
+          <h1>Archivos XML</h1>
+
+          <p>
+            < libro> < title>100 años de soledad< /title> < author>Gabriel
+            Garcia Marquez< /author> < /libro>
+          </p>
+        </section>
+
+        <!-- Archivos json -->
+        <section data-background-color="black" data-auto-animate>
+          <h1>Archivos json</h1>
+
+        </section>
+        <section data-background-color="black" data-auto-animate style="color: darkturquoise;">
+          <h1>Archivos json</h1>
+          <p>
+            Un archivo JSON (JavaScript Object Notation) es un tipo de archivo
+            informático que almacena información estructurada en formato de
+            texto plano.
+          </p>
+        </section>
+        <section data-background-color="black" data-auto-animate>
+            <pre data-id="code-animation"><code data-trim data-line-numbers></code>
+          <h1>Estructura de archivo json</h1>
+        </code></pre>
+        </section>
+
+        <section data-background-color="" data-auto-animate>
+            
+                <h1>Estructura de archivo json</h1>
+               
+                [                
+                    {
+                    "id": 1,
+                    "name": "Leanne Graham",
+                    "username": "Bret",
+                    "email": "Sincere@april.biz"
+                    }
+                ]
+              
+          </section>
+
+
+          
+
+        <!-- Que es Parquet -->
+        <section data-background-color="#3EF383">
+          <h2>Que es Parquet</h2>
+          <p>
+            Parquet es un formato de archivo columnar utilizado para el
+            almacenamiento y procesamiento de grandes conjuntos de datos en un
+            clúster de computadoras.
+          </p>
+        </section>
+
+        <section data-background-color="#3EF383">
+          <h2>Ejemplo de Parquet</h2>
+          <p>
+            import pandas as pd 
+            import matplotlib.pyplot as plt 
+
+            # Leer el archivo Parquet 
+            df = pd.read_parquet('archivo.parquet') 
+            
+            # Agrupar los datos por una columna y contar el número de ocurrencias 
+            
+            counts = df.groupby('columna').size().reset_index(name='count') 
+            
+            # Visualizar
+            los datos en un gráfico de barras
+             counts.plot(kind='bar',x='columna', y='count') plt.show()
+          </p>
+        </section>
+
+        <section data-background-color="black" >
+            <h1>gracias</h1>
+            <h2>robinson penagos</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="path/to/pretty-code.js"></script>
+    <script src="node_modules/reveal.js/dist/reveal.js"></script>
+    <script>
+      // Initialize Reveal.js
+      Reveal.initialize({
+        autoSlide: 5000,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
